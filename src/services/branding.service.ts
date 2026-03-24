@@ -21,13 +21,13 @@ interface BrandingCacheEnvelope {
 export const BRANDING_REFRESH_SIGNAL_KEY = 'branding_refresh_signal_v1';
 
 const DEFAULT_BRANDING = {
-    companyName: "Martin's Native Lumber",
+    companyName: "Gobble-Fite Lumber",
     templateId: 1,
     paletteId: 1,
     logoBase64: null,
     logoType: null,
-    contactEmail: 'akraus@martinslumber.com',
-    contactPhone: '(540) 879-2518',
+    contactEmail: 'info@gobble-fite.com',
+    contactPhone: '(256) 353-5713',
 };
 
 class BrandingServiceImpl {
@@ -167,7 +167,7 @@ class BrandingServiceImpl {
             logoType: logoType ?? DEFAULT_BRANDING.logoType,
             contactEmail: contactEmail ?? DEFAULT_BRANDING.contactEmail,
             contactPhone: contactPhone ?? DEFAULT_BRANDING.contactPhone,
-            logoUrl: '/assets/martins-logo.png',
+            logoUrl: '/assets/gobblefite-logo.png',
         };
 
         this.branding = branding;

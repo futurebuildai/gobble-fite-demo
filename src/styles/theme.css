@@ -4,14 +4,14 @@
    ======================================== */
 
 :root {
-    /* Colors - Martin's Native Lumber (Maroon & Forest Green) */
-    --color-primary: #6a011f;
-    --color-primary-dark: #4a0115;
-    --color-primary-light: #8a0129;
-    --color-accent: #076437;
-    --color-accent-light: #098046;
-    --color-accent-dark: #054d2a;
-    --color-cta: #6a011f;
+    /* Colors - Gobble-Fite Lumber */
+    --color-primary: #cc0000;
+    --color-primary-dark: #990000;
+    --color-primary-light: #ff3333;
+    --color-accent: #000000;
+    --color-accent-light: #333333;
+    --color-accent-dark: #000000;
+    --color-cta: #cc0000;
     --color-cta-hover: #4a0115;
     --color-text: #0f172a;
     --color-text-light: #475569;

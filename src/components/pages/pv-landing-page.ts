@@ -242,7 +242,7 @@ export class PvLandingPage extends PvBase {
 
   connectedCallback() {
     super.connectedCallback();
-    const auth = localStorage.getItem('martins_auth');
+    const auth = localStorage.getItem('gobblefite_auth');
     if (auth === 'true') {
       this.isAuthorized = true;
     }
@@ -254,9 +254,9 @@ export class PvLandingPage extends PvBase {
   }
 
   private checkPassword() {
-    if (this.passwordInput === 'HowMartinsWins2026') {
+    if (this.passwordInput === 'HowGobbleFiteWins2026') {
       this.isAuthorized = true;
-      localStorage.setItem('martins_auth', 'true');
+      localStorage.setItem('gobblefite_auth', 'true');
     } else {
       this.authError = 'Incorrect password. Please try again.';
       this.passwordInput = '';
@@ -284,9 +284,9 @@ export class PvLandingPage extends PvBase {
       return html`
         <div class="password-overlay">
           <div class="password-card">
-            <img src="/assets/martins-logo.png" alt="Logo" class="password-logo" />
+            <img src="/assets/gobblefite-logo.png" alt="Logo" class="password-logo" />
             <h2>Restricted Access</h2>
-            <p>Please enter the authorization password to view the Martin's Native Lumber portals.</p>
+            <p>Please enter the authorization password to view the Gobble-Fite Lumber portals.</p>
             <div class="input-group">
               <input 
                 type="password" 
@@ -310,10 +310,10 @@ export class PvLandingPage extends PvBase {
     return html`
       <div class="landing-container">
         <div class="logo-container">
-          <img src="/assets/martins-logo.png" alt="Martin's Native Lumber Logo" class="rycenga-logo" />
+          <img src="/assets/gobblefite-logo.png" alt="Gobble-Fite Lumber Logo" class="rycenga-logo" />
         </div>
 
-        <h1 class="title">Martin's Native Lumber</h1>
+        <h1 class="title">Gobble-Fite Lumber</h1>
 
         <div class="portal-cards">
           <div class="portal-card" @click=${this.navigateToPortal}>

@@ -293,7 +293,7 @@ export class AdminLayout extends LitElement {
         return html`
             <nav>
                 <div class="logo-area has-full-logo">
-                    <img src="/assets/martins-logo.png" alt="Martin's Native Lumber Logo" />
+                    <img src="/assets/gobblefite-logo.png" alt="Gobble-Fite Lumber Logo" />
                     <div class="logo-icon">V</div>
                     <span class="logo-text">${tenantName} Admin</span>
                 </div>
