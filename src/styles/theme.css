@@ -5,13 +5,13 @@
 
 :root {
     /* Colors - Gobble-Fite Lumber */
-    --color-primary: #cc0000;
-    --color-primary-dark: #990000;
-    --color-primary-light: #ff3333;
-    --color-accent: #000000;
-    --color-accent-light: #333333;
-    --color-accent-dark: #000000;
-    --color-cta: #cc0000;
+    --color-primary: #7a1520;
+    --color-primary-dark: #5c0f18;
+    --color-primary-light: #9c1f2b;
+    --color-accent: #b4975a;
+    --color-accent-light: #c5ad7a;
+    --color-accent-dark: #917743;
+    --color-cta: #7a1520;
     --color-cta-hover: #4a0115;
     --color-text: #0f172a;
     --color-text-light: #475569;
@@ -37,8 +37,8 @@
     --status-error-text: #ef4444;
     --status-neutral-bg: rgba(71, 85, 105, 0.1);
     --status-neutral-text: #475569;
-    --status-accent-bg: rgba(7, 100, 55, 0.1);
-    --status-accent-text: #076437;
+    --status-accent-bg: rgba(180, 151, 90, 0.1);
+    --status-accent-text: #b4975a;
     --status-purple-bg: rgba(168, 85, 247, 0.1);
     --status-purple-text: #a855f7;
 

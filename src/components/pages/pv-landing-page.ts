@@ -29,7 +29,7 @@ export class PvLandingPage extends PvBase {
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(135deg, #6a011f 0%, #4a0115 100%);
+        background: linear-gradient(135deg, #7a1520 0%, #5c0f18 100%);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -62,7 +62,7 @@ export class PvLandingPage extends PvBase {
 
       .password-card h2 {
         font-family: 'Space Grotesk', sans-serif;
-        color: #6a011f;
+        color: #7a1520;
         margin-bottom: 1rem;
         font-size: 24px;
       }
@@ -89,12 +89,12 @@ export class PvLandingPage extends PvBase {
       }
 
       .password-input:focus {
-        border-color: #6a011f;
+        border-color: #7a1520;
       }
 
       .btn-auth {
         width: 100%;
-        background: #076437;
+        background: #b4975a;
         color: white;
         padding: 1rem;
         border-radius: 12px;
@@ -106,7 +106,7 @@ export class PvLandingPage extends PvBase {
       }
 
       .btn-auth:hover {
-        background: #054d2a;
+        background: #917743;
         transform: translateY(-2px);
       }
 
