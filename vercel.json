@@ -1,4 +1,7 @@
 {
+    "alias": [
+        "gobble-fite.bwdemo.app"
+    ],
     "rewrites": [
         {
             "source": "/admin(.*)",
